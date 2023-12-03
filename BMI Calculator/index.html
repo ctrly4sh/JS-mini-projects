@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>BMI CALCULATOR | c t r l y 4 s h</title>
+
+</head>
+
+<body>
+  <div class="main">
+    <h3>BODY MASS INDEX CALCULATOR</h3>
+
+    <div class="bmi-content">
+
+      <span style="text-decoration: underline;">What is BMI ?</span>
+
+      <p>
+        Body Mass Index (BMI) is a person’s weight in kilograms (or pounds) divided by the square of height in meters
+        (or feet). A high BMI can indicate high body fatness. BMI screens for weight categories that may lead to health
+        problems, but it does not diagnose the body fatness or health of an individual.
+      </p>
+
+      <p>
+        Below is the chart you may refer to after calculating your BMI.
+      </p>
+
+    </div>
+
+    <div class="form">
+
+      <div class="bmi-chart">
+        <img src="assets/table.avif" alt="bmi chart" width="400px">
+      </div>
+
+      <form action="" name="form">
+        <p>
+          <label for="weight">Weight in kg :</label> <br>
+          <input type="number" name="weight" id="weight">
+        </p>
+        <p>
+          <label for="height">height in cm :</label> <br>
+          <input type="number" name="height" id="height">
+        </p>
+
+        <p>
+          <input type="submit" value="Calculate">
+        </p>
+
+        <p>
+        <div id="result"></div>
+        </p>
+
+      </form>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>

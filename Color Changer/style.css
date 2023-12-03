@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  margin: 5px;
+  border: 2px solid white;
+}
+
+#green {
+  background-color: green;
+}
+#red {
+  background-color: red;
+}
+#blue {
+  background-color: blue;
+}
+#orange {
+  background-color: orange;
+}
+#black{
+    background-color: black;
+}
