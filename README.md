@@ -11,3 +11,8 @@ further ill add all the live working links of this mini projects.
 
 Thanks :)
 
+Live kinks [ hosted on netlify for free ] :
+
+infinite colors : https://adhd-alert.netify.app
+keypress checker : https://what-did-you-press.netify.app
+
