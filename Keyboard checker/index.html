@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le'mme Guess What You Pressed</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+        body {
+            background: linear-gradient(to left, blue, aliceblue);
+        }
+
+        h1 {
+            font-family: "Poppins", sans-serif;
+        }
+
+        p {
+            font-size: large;
+            font-family: "Poppins", sans-serif;
+        }
+
+        #clicked {
+            font-family: "Poppins", sans-serif;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">Le'mme Guess What You Pressed</h1> <br>
+
+    <p>
+        Press any <span><b>KEY</b></span> on your <span><b>KEYBOARD</b>
+and I will let you know what <span><b>KEY</b></span> you pressed
+    </p>
+
+    <div id="clicked">
+        test
+    </div>
+
+</body>
+
+    <script>
+        const body = document.querySelector('body');
+        const clicked = document.querySelector('#clicked')
+        body.addEventListener('keydown', (e) => {
+            clicked.innerHTML = "Button pressed: " + e.key;
+        })
+    </script>
+
+
+</html>
