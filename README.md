@@ -13,6 +13,6 @@ Thanks :)
 
 Live kinks [ hosted on netlify for free ] :
 
-infinite colors : https://adhd-alert.netify.app
-keypress checker : https://what-did-you-press.netify.app
+infinite colors : https://adhd-alert.netlify.app
+keypress checker : https://what-did-you-press.netlify.app
 
